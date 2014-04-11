@@ -2,13 +2,13 @@
 
 ## Installation
 
+### Rails 4
+
 **Step 1**
 
 Load `swipe-rails` in your `Gemfile` as part of the `assets` group
 
-    group :assets do
-      gem 'swipe-rails'
-    end
+    gem 'swipe-rails'
 
 **Step 2**
 
@@ -19,6 +19,14 @@ Run 'bundle install'
 Require `swipe.js` in your Javascript manifest (e.g. `application.js`)
 
     //= require swipe
+
+### Rails 3
+
+The same as Rails 4 but put the gem into your `assets` group:
+
+    group :assets do
+      gem 'swipe-rails'
+    end
 
 ## Usage
 
