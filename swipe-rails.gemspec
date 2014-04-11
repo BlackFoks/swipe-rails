@@ -14,8 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "swipe-rails"
   gem.require_paths = ["lib"]
   gem.version       = SwipeRails::VERSION
-  gem.add_dependency 'rails', '~> 3.2.12'
-  gem.add_dependency 'json', '~> 1.7.7'
+  gem.add_dependency 'rails', '~> 4.0'
+  gem.add_dependency 'json', '~> 1.8'
   gem.add_development_dependency 'sqlite3'
   gem.add_development_dependency 'minitest', '~> 4.0'
   gem.add_development_dependency 'capybara'
